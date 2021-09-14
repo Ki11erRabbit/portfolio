@@ -82,10 +82,10 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
   margin: auto;
   border: 2px solid #3c4253; /* a nice dark bluish grey */
   border-radius: 5px;
+  background-color: #fff9ec; /* warm tan-white color */
 }
 
 .navbarItem {
@@ -93,8 +93,12 @@ body {
   list-style-type: none;
   text-decoration: none;
   padding: 4px;
-
+  border-right: 1px solid #3c4253; /* a nice dark bluish grey */
   float: left;
+}
+
+.navbarItem li:last-child {
+  border-right: none;
 }
 
 li a {
@@ -128,5 +132,5 @@ li a:visited:hover {
   color: #fff9ec; /* a nice dark bluish grey */
 }
 li a:visited:active {
-  color: #76eff3; 
+  color: #76eff3;
 }
