@@ -44,26 +44,89 @@ body {
     margin: 20px auto;
     text-align: left;
 }
+.contact li a {
+  display: contents;
+  text-align: justify;
+  padding: 0;
+  text-decoration: none;
+  margin: 0.3em auto;
+}
 
 /* Below is where links' colors are altered */
 
-a:link {
+.contact li a:link {
   color: #006e28;
   text-decoration: none;
 }
-a:visited {
+.contact li a:visited {
   color: #522186;
 }
-a:hover {
+.contact li a:hover {
   color: #3daee9;
   text-decoration: underline;
 }
-a:active {
+.contact li a:active {
   color: #76eff3;
 }
-a:visited:hover {
+.contact li a:visited:hover {
   color: #3daee9;
 }
-a:visited:active {
+.contact li a:visited:active {
   color: #76eff3;
+}
+
+/* Navigation Bar*/
+
+.navbarMenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  margin: auto;
+  border: 2px solid #3c4253; /* a nice dark bluish grey */
+  border-radius: 5px;
+}
+
+.navbarItem {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 4px;
+
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #3c4253; /* a nice dark bluish grey */
+  text-align: center;
+  padding: 4px 1em;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #3c4253; /* a nice dark bluish grey */
+
+  border-radius: 5px;
+}
+li a:link {
+  color: #3c4253; /* a nice dark bluish grey */
+  text-decoration: none;
+}
+li a:visited {
+  color: #3c4253; /* a nice dark bluish grey */
+}
+li a:hover {
+  color: #fff9ec;
+  text-decoration: none;
+}
+li a:active {
+  color: #76eff3;
+}
+li a:visited:hover {
+  color: #fff9ec; /* a nice dark bluish grey */
+}
+li a:visited:active {
+  color: #76eff3; 
 }
