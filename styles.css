@@ -37,7 +37,7 @@ body {
   width: 950px;
 }
 
-.contact{/* This does not work and I have no idea why */
+.contact{/* This centers the paragraphs under contacts */
     font-weight: normal;
     margin: 20px auto;
     text-align: left;
