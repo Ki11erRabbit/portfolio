@@ -1,24 +1,67 @@
 
 p {
   font-weight: normal;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
 }
 
 li {
-  font-weigth: normal;
+  font-weight: normal;
+  margin: 0.3em auto;
 }
 
 body {
   width: 1050px;
-  margin: 0 auto;
+  margin: 0px auto;
   background-color: #fff9ec; /* warm tan-white color */
 
   font-family: "Helvetica", "Arial", sans-serif;
   color: #3c4253; /* a nice dark bluish grey */
+  text-align: justify;
 }
 
-div {
-  margin: 0 auto;
+.page {/* Draws boxes around the text */
+  margin: 30px auto;
   border: 2px solid #3c4253; /* a nice dark bluish grey */
   border-radius: 5px;
-  width: 900px;
+  width: 950px;
+}
+
+.gap {/* Is used to put some space at the bottom of the page */
+  margin: 150px auto;
+
+  width: 950px;
+}
+
+.contact{/* This does not work and I have no idea why */
+    font-weight: normal;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* Below is where links' colors are altered */
+
+a:link {
+  color: #006e28;
+  text-decoration: none;
+}
+a:visited {
+  color: #522186;
+}
+a:hover {
+  color: #3daee9;
+  text-decoration: underline;
+}
+a:active {
+  color: #76eff3;
+}
+a:visited:hover {
+  color: #3daee9;
+}
+a:visited:active {
+  color: #76eff3;
 }
