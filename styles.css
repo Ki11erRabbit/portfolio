@@ -9,6 +9,8 @@ h1, h2, h3 {
   text-align: center;
 }
 
+
+
 li {
   font-weight: normal;
   margin: 0.3em auto;
@@ -37,7 +39,7 @@ body {
   width: 950px;
 }
 
-.contact{/* This centers the paragraphs under contacts */
+#contact{/* This centers the paragraphs under contacts */
     font-weight: normal;
     margin: 20px auto;
     text-align: left;
